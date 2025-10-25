@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Collection",
+  "name": "TCDS — PORTAL DOCUMENTOS",
+  "description": "Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS, con visor embebido y validación automática.",
+  "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/",
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+  "hasPart": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Simbiosis",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/simbiosis.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Anexo Isomórfico",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/anexo_isomorfico.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Reestructura TCDS",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuesta_reestructurada_tcds.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Coherencia",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/coherencia.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Palíndromo TCDS",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelo_palindromo_tcds.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Campo Sigma",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructura_de_sigma_y_su_campo.pdf"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Proyecto Vacío",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/proyecto_vacio.pdf"
+    }
+  ]
+}

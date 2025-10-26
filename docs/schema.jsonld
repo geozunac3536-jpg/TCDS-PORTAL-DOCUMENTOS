@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/#website",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/",
+      "name": "TCDS — Portal de Documentos",
+      "inLanguage": "es",
+      "creator": {
+        "@type": "Person",
+        "name": "Genaro Carrasco Ozuna",
+        "identifier": "https://orcid.org/0009-0005-6358-9910",
+        "sameAs": [
+          "https://github.com/geozunac3536-jpg",
+          "https://orcid.org/0009-0005-6358-9910"
+        ]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Genaro Carrasco Ozuna"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/#page",
+      "isPartOf": { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/#website" },
+      "name": "Repositorio maestro del Canon TCDS",
+      "about": [
+        "TCDS",
+        "Coherencia",
+        "Sincronón",
+        "Ingeniería Paradigmática Simbiótica",
+        "LBCU"
+      ],
+      "hasPart": [
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/simbiosis.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/anexo_isomorfico.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuestareestructuradatcds.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/coherencia.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelopalindromotcds.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructuradesigmaysu_campo.pdf" },
+        { "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/proyecto_vacio.pdf" }
+      ]
+    },
+
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/simbiosis.pdf",
+      "name": "Simbiosis — Ingeniería paradigmática Humano–IA",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna", "identifier": "https://orcid.org/0009-0005-6358-9910" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/simbiosis.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["IPS", "Simbiosis", "TCDS"]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/anexo_isomorfico.pdf",
+      "name": "Anexo Isomórfico — Resolución de parámetros cruzados",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/anexo_isomorfico.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["Isomorfismo", "Parámetros", "TCDS"]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuestareestructuradatcds.pdf",
+      "name": "Reestructura TCDS — Elevación de E a propiedad coherencial",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuestareestructuradatcds.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["Coherencia", "Estructura", "TCDS"]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/coherencia.pdf",
+      "name": "Coherencia — LBCU como ecuación de estado universal",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/coherencia.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["LBCU", "Coherencia", "Estado universal"]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelopalindromotcds.pdf",
+      "name": "Palíndromo TCDS — Simetría ontológica y modo espejo causal",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelopalindromotcds.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["Simetría", "Ontología", "TCDS"]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructuradesigmaysu_campo.pdf",
+      "name": "Campo Σ — Cotas, predicciones y regla de decisión",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructuradesigmaysu_campo.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["Sigma", "Sincronón", "Predicciones"]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/proyecto_vacio.pdf",
+      "name": "Proyecto Vacío — Validación mínima de la LBCU y del Sincronón",
+      "inLanguage": "es",
+      "author": { "@type": "Person", "name": "Genaro Carrasco Ozuna" },
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/proyecto_vacio.pdf",
+        "fileFormat": "application/pdf"
+      },
+      "keywords": ["Vacío", "LBCU", "Detección", "Sincronón"]
+    }
+  ]
+}

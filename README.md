@@ -1,17 +1,17 @@
-TCDS — PORTAL DOCUMENTOS
+# TCDS — PORTAL DOCUMENTOS
 
 Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS.  
 Incluye visor embebido, validación automática y navegación modular por obras clave.
 
 ---
 
-📚 Acceso al portal
+## 📚 Acceso al portal
 
-🔗 Ir al portal web
+🔗 [Ir al portal web](https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/)
 
 ---
 
-📄 Documentos incluidos
+## 📄 Documentos incluidos
 
 | Documento               | Descripción breve                                              | Archivo PDF                          |
 |-------------------------|----------------------------------------------------------------|--------------------------------------|
@@ -25,13 +25,14 @@ Incluye visor embebido, validación automática y navegación modular por obras 
 
 ---
 
-🛠️ Estructura del repositorio
+## 🛠️ Estructura del repositorio
 
-`plaintext
+```plaintext
 TCDS-PORTAL-DOCUMENTOS/
 ├── docs/
-│   ├── index.html                # Portal web con visor embebido
-│   ├── pdf/                      # Carpeta con documentos PDF
+│   ├── index.html
+│   ├── schema.jsonld
+│   ├── pdf/
 │   │   ├── simbiosis.pdf
 │   │   ├── anexo_isomorfico.pdf
 │   │   ├── propuestareestructuradatcds.pdf
@@ -40,8 +41,6 @@ TCDS-PORTAL-DOCUMENTOS/
 │   │   ├── reestructuradesigmaysu_campo.pdf
 │   │   ├── proyecto_vacio.pdf
 ├── README.md
-`
-
 ---
 
 🧠 Filosofía del portal

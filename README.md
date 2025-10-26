@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>TCDS — Portal de Documentos</title>
+  <title>TCDS — Portal-de-Documentos</title>
   <style>
     :root{--bg:#0a0a0a;--fg:#e5e5e5;--accent:#e63946;--card:#151515;--border:#333}
     *{box-sizing:border-box;margin:0;padding:0}
@@ -25,7 +25,7 @@
 </head>
 <body>
   <header>
-    <h1>TCDS — Portal de Documentos</h1>
+    <h1>TCDS — Portal-de-Documentos</h1>
     <p>Repositorio maestro del Canon TCDS</p>
   </header>
 

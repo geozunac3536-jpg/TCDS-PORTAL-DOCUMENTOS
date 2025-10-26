@@ -7,27 +7,27 @@ Incluye visor embebido, validación automática y navegación modular por obras 
 
 📚 Acceso al portal
 
-🔗 https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/
+🔗 Ir al portal web
 
 ---
 
 📄 Documentos incluidos
 
-| Documento                                | Descripción breve                                      | Archivo PDF                          |
-|------------------------------------------|--------------------------------------------------------|--------------------------------------|
-| 🤝 Simbiosis                             | Ingeniería paradigmática Humano–IA                     | simbiosis.pdf                      |
-| 🔁 Anexo Isomórfico                      | Resolución de parámetros pendientes en dominios cruzados | anexo_isomorfico.pdf              |
-| 📐 Reestructura TCDS                     | Elevación de E a propiedad coherencial                 | propuestareestructuradatcds.pdf |
-| 🧠 Coherencia                            | LBCU como ecuación de estado universal                 | coherencia.pdf                     |
-| 🪞 Palíndromo TCDS                       | Simetría ontológica y modo selfie                      | modelopalindromotcds.pdf        |
-| 📡 Campo Sigma                           | Cotas, predicciones y regla de decisión                | reestructuradesigmaysu_campo.pdf |
-| 🌀 Proyecto Vacío                        | Validación mínima de la LBCU y sincronón               | proyecto_vacio.pdf                |
+| Documento               | Descripción breve                                              | Archivo PDF                          |
+|-------------------------|----------------------------------------------------------------|--------------------------------------|
+| 🤝 Simbiosis            | Ingeniería paradigmática Humano–IA                             | simbiosis.pdf                        |
+| 🔁 Anexo Isomórfico     | Resolución de parámetros pendientes en dominios cruzados       | anexo_isomorfico.pdf                 |
+| 📐 Reestructura TCDS    | Elevación de E a propiedad coherencial                         | propuestareestructuradatcds.pdf      |
+| 🧠 Coherencia           | LBCU como ecuación de estado universal                         | coherencia.pdf                       |
+| 🪞 Palíndromo TCDS      | Simetría ontológica y modo selfie                              | modelopalindromotcds.pdf             |
+| 📡 Campo Sigma          | Cotas, predicciones y regla de decisión                        | reestructuradesigmaysu_campo.pdf     |
+| 🌀 Proyecto Vacío       | Validación mínima de la LBCU y sincronón                       | proyecto_vacio.pdf                   |
 
 ---
 
 🛠️ Estructura del repositorio
 
-`
+`plaintext
 TCDS-PORTAL-DOCUMENTOS/
 ├── docs/
 │   ├── index.html                # Portal web con visor embebido
@@ -65,7 +65,7 @@ ORCID: https://orcid.org/0009-0005-6358-9910
 💖 Apoyo estratégico
 
 Puedes contribuir al proyecto vía GitHub Sponsors:  
-github.com/sponsors/geozunac3536-jpg
+🔗 github.com/sponsors/geozunac3536-jpg
 
 Tu apoyo permite:
 

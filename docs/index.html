@@ -1,22 +1,152 @@
-<h2>📄 Documentos incluidos</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 0.5em;">
-  <a class="nav-button" href="pdf/simbiosis.pdf" target="_blank">🤝 Simbiosis</a>
-  <a class="nav-button" href="pdf/anexo_isomorfico.pdf" target="_blank">🔁 Anexo Isomórfico</a>
-  <a class="nav-button" href="pdf/propuestareestructuradatcds.pdf" target="_blank">📐 Reestructura TCDS</a>
-  <a class="nav-button" href="pdf/coherencia.pdf" target="_blank">🧠 Coherencia</a>
-  <a class="nav-button" href="pdf/modelopalindromotcds.pdf" target="_blank">🪞 Palíndromo TCDS</a>
-  <a class="nav-button" href="pdf/reestructuradesigmaysu_campo.pdf" target="_blank">📡 Campo Sigma</a>
-  <a class="nav-button" href="pdf/proyecto_vacio.pdf" target="_blank">🌀 Proyecto Vacío</a>
-</div>.nav-button {
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em 1em;
-  background-color: #ff4c4c;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.nav-button:hover {
-  background-color: #e03c3c;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portal maestro de documentos científicos, operativos y ontológicos del Canon TCDS." />
+  <title>TCDS — Portal de Documentos</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #e5e5e5;
+      --accent: #e63946;
+      --card: #151515;
+      --border: #333;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 { color: var(--accent); margin-bottom: 0.25rem; }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(230, 57, 70, 0.2);
+      transition: transform 0.2s ease;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card h2 {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p { font-size: 0.9rem; margin-bottom: 1rem; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--fg);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .btn:hover { background: #ff4f5a; }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+      display: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 1rem;
+      border-top: 1px solid var(--border);
+      color: #888;
+    }
+    @media (max-width: 768px) {
+      .container { padding: 1rem; }
+      .card { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TCDS — Portal de Documentos</h1>
+    <p>Repositorio maestro de obras científicas, operativas y ontológicas del Canon TCDS.</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>🤝 Simbiosis</h2>
+      <p>Ingeniería paradigmática Humano–IA.</p>
+      <a class="btn" href="pdf/simbiosis.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>🔁 Anexo Isomórfico</h2>
+      <p>Resolución de parámetros pendientes en dominios cruzados.</p>
+      <a class="btn" href="pdf/anexo_isomorfico.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>📐 Reestructura TCDS</h2>
+      <p>Elevación de E a propiedad coherencial.</p>
+      <a class="btn" href="pdf/propuestareestructuradatcds.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>🧠 Coherencia</h2>
+      <p>LBCU como ecuación de estado universal.</p>
+      <a class="btn" href="pdf/coherencia.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>🪞 Palíndromo TCDS</h2>
+      <p>Simetría ontológica y modo espejo causal.</p>
+      <a class="btn" href="pdf/modelopalindromotcds.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>📡 Campo Σ</h2>
+      <p>Cotas, predicciones y regla de decisión.</p>
+      <a class="btn" href="pdf/reestructuradesigmaysu_campo.pdf" target="viewer">Ver PDF</a>
+    </div>
+
+    <div class="card">
+      <h2>🌀 Proyecto Vacío</h2>
+      <p>Validación mínima de la LBCU y detección del Sincronón.</p>
+      <a class="btn" href="pdf/proyecto_vacio.pdf" target="viewer">Ver PDF</a>
+    </div>
+  </main>
+
+  <iframe id="viewer"></iframe>
+
+  <footer>
+    <p>© 2025 Genaro Carrasco Ozuna — Canon TCDS · <a href="https://orcid.org/0009-0005-6358-9910" style="color:#888;">ORCID</a></p>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.btn');
+    const viewer = document.getElementById('viewer');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        viewer.src = btn.getAttribute('href');
+        viewer.style.display = 'block';
+        window.scrollTo({ top: viewer.offsetTop, behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>

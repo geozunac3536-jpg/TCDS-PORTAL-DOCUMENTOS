@@ -1,75 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TCDS — Portal Documentos</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "TCDS — Portal Documentos",
-    "description": "Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS",
-    "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/",
-    "creator": {
-      "@type": "Person",
-      "name": "Genaro Carrasco Ozuna",
-      "identifier": "https://orcid.org/0009-0005-6358-9910"
-    },
-    "hasPart": [
-      { "@type": "CreativeWork", "name": "Simbiosis", "encodingFormat": "application/pdf", "url": "pdf/simbiosis.pdf" },
-      { "@type": "CreativeWork", "name": "Anexo Isomórfico", "encodingFormat": "application/pdf", "url": "pdf/anexo_isomorfico.pdf" },
-      { "@type": "CreativeWork", "name": "Reestructura TCDS", "encodingFormat": "application/pdf", "url": "pdf/propuestareestructuradatcds.pdf" },
-      { "@type": "CreativeWork", "name": "Coherencia", "encodingFormat": "application/pdf", "url": "pdf/coherencia.pdf" },
-      { "@type": "CreativeWork", "name": "Palíndromo TCDS", "encodingFormat": "application/pdf", "url": "pdf/modelopalindromotcds.pdf" },
-      { "@type": "CreativeWork", "name": "Campo Sigma", "encodingFormat": "application/pdf", "url": "pdf/reestructuradesigmaysu_campo.pdf" },
-      { "@type": "CreativeWork", "name": "Proyecto Vacío", "encodingFormat": "application/pdf", "url": "pdf/proyecto_vacio.pdf" }
-    ]
-  }
-  </script>
-  <style>
-    body { font-family: 'Segoe UI', sans-serif; }
-    h1, h2 { color: #ff4c4c; }
-    .doc-card {
-      border: 1px solid #444;
-      padding: 1em;
-      margin-bottom: 1em;
-      border-radius: 8px;
-      background-color: #1a1a1a;
-    }
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-      margin-top: 1em;
-    }
-    .nav-button {
-      display: inline-block;
-      margin: 0.5em;
-      padding: 0.5em 1em;
-      background-color: #ff4c4c;
-      color: white;
-      border-radius: 4px;
-      text-decoration: none;
-    }
-    .lang-toggle {
-      float: right;
-      margin-top: -2em;
-    }
-  </style>
-</head>
-<body>
-  <div class="lang-toggle">
-    <a href="#es">🇲🇽 Español</a> | <a href="#en">🇺🇸 English</a>
-  </div>
-
-  <h1 id="es">TCDS — Portal Documentos</h1>
-  <p>Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS.</p>
-
-  <h1 id="en">TCDS — Document Portal</h1>
-  <p>Master repository of scientific, operational, and ontological documents from the TCDS Canon.</p>
-
-  <h2>📄 Navegación / Navigation</h2>
-  <div id="nav">
-    <a class="nav-button" href="#simbiosis">🤝 Simbiosis</a>
+<h2>📄 Documentos incluidos</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 0.5em;">
+  <a class="nav-button" href="pdf/simbiosis.pdf" target="_blank">🤝 Simbiosis</a>
+  <a class="nav-button" href="pdf/anexo_isomorfico.pdf" target="_blank">🔁 Anexo Isomórfico</a>
+  <a class="nav-button" href="pdf/propuestareestructuradatcds.pdf" target="_blank">📐 Reestructura TCDS</a>
+  <a class="nav-button" href="pdf/coherencia.pdf" target="_blank">🧠 Coherencia</a>
+  <a class="nav-button" href="pdf/modelopalindromotcds.pdf" target="_blank">🪞 Palíndromo TCDS</a>
+  <a class="nav-button" href="pdf/reestructuradesigmaysu_campo.pdf" target="_blank">📡 Campo Sigma</a>
+  <a class="nav-button" href="pdf/proyecto_vacio.pdf" target="_blank">🌀 Proyecto Vacío</a>
+</div>.nav-button {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-button:hover {
+  background-color: #e03c3c;
+}

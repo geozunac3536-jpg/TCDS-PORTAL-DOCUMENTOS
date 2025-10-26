@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
-  "@type": "Collection",
-  "name": "TCDS — PORTAL DOCUMENTOS",
-  "description": "Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS, con visor embebido y validación automática.",
+  "@type": "CollectionPage",
+  "name": "TCDS — Portal Documentos",
+  "description": "Repositorio maestro de documentos científicos, operativos y ontológicos del Canon TCDS. Incluye visor embebido, validación automática y navegación modular por obras clave.",
   "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/",
   "creator": {
     "@type": "Person",
@@ -11,38 +11,52 @@
   },
   "hasPart": [
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Simbiosis",
+      "description": "Ingeniería paradigmática Humano–IA",
+      "encodingFormat": "application/pdf",
       "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/simbiosis.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Anexo Isomórfico",
+      "description": "Resolución de parámetros pendientes en dominios cruzados",
+      "encodingFormat": "application/pdf",
       "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/anexo_isomorfico.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Reestructura TCDS",
-      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuesta_reestructurada_tcds.pdf"
+      "description": "Elevación de E a propiedad coherencial",
+      "encodingFormat": "application/pdf",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/propuestareestructuradatcds.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Coherencia",
+      "description": "LBCU como ecuación de estado universal",
+      "encodingFormat": "application/pdf",
       "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/coherencia.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Palíndromo TCDS",
-      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelo_palindromo_tcds.pdf"
+      "description": "Simetría ontológica y modo selfie",
+      "encodingFormat": "application/pdf",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/modelopalindromotcds.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Campo Sigma",
-      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructura_de_sigma_y_su_campo.pdf"
+      "description": "Cotas, predicciones y regla de decisión",
+      "encodingFormat": "application/pdf",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/reestructuradesigmaysu_campo.pdf"
     },
     {
-      "@type": "ScholarlyArticle",
+      "@type": "CreativeWork",
       "name": "Proyecto Vacío",
+      "description": "Validación mínima de la LBCU y sincronón",
+      "encodingFormat": "application/pdf",
       "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL-DOCUMENTOS/pdf/proyecto_vacio.pdf"
     }
   ]

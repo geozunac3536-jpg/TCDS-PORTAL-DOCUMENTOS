@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>TCDS — Portal de Documentos</title>
-  <style>
-    :root{--bg:#0a0a0a;--fg:#e5e5e5;--accent:#e63946;--card:#151515;--border:#333}
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{background:var(--bg);color:var(--fg);font-family:system-ui,Segoe UI,Roboto,sans-serif}
-    header{text-align:center;padding:1.5rem;border-bottom:1px solid var(--border)}
-    h1{color:var(--accent);font-size:1.4rem;margin-bottom:.3rem}
-    p.subtitle{font-size:.95rem;color:#aaa}
-    main{padding:2rem 1rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem;transition:.2s}
-    .card:hover{transform:translateY(-4px)}
-    .card h2{color:var(--accent);font-size:1rem;margin-bottom:.3rem}
-    .card p{font-size:.9rem;margin-bottom:.8rem}
-    .btn{display:inline-block;background:var(--accent);color:var(--fg);
-      padding:.5rem .8rem;border-radius:8px;text-decoration:none;font-weight:600}
-    .btn:hover{background:#ff4f5a}
-    footer{text-align:center;border-top:1px solid var(--border);padding:1rem;color:#888;font-size:.85rem}
-  </style>
+
 </head>
 <body>
   <header>

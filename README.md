@@ -25,25 +25,25 @@
         <a class="btn" href="pdf/propuestareestructuradatcds.pdf" target="_blank" rel="noopener">Abrir PDF</a>
       </div>
 
-   <div class="card">
+ <div class="card">
         <h2>🧠 Coherencia</h2>
         <p>LBCU como ecuación de estado universal.</p>
         <a class="btn" href="pdf/coherencia.pdf" target="_blank" rel="noopener">Abrir PDF</a>
       </div>
 
-   <div class="card">
+ <div class="card">
         <h2>🪞 Palíndromo TCDS</h2>
         <p>Simetría ontológica y modo espejo causal.</p>
         <a class="btn" href="pdf/modelopalindromotcds.pdf" target="_blank" rel="noopener">Abrir PDF</a>
       </div>
 
-  <div class="card">
+ <div class="card">
         <h2>📡 Campo Σ</h2>
         <p>Cotas, predicciones y regla de decisión.</p>
         <a class="btn" href="pdf/reestructuradesigmaysu_campo.pdf" target="_blank" rel="noopener">Abrir PDF</a>
       </div>
 
-  <div class="card">
+ <div class="card">
         <h2>🌀 Proyecto Vacío</h2>
         <p>Validación mínima de la LBCU y detección del Sincronón.</p>
         <a class="btn" href="pdf/proyecto_vacio.pdf" target="_blank" rel="noopener">Abrir PDF</a>

@@ -1,4 +1,3 @@
-</head>
 <body>
   <header>
     <h1>TCDS — Portal de Documentos</h1>
